@@ -41,23 +41,38 @@
         padding: 1.5em;
     }
 div.lien{
-    padding-left: 10em;
+  
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-a.twitter{
-    text-decoration: none;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
     
+    
+
+   
     
    
+    
+    
 }
-a.linkedin{
+img.twitter{
     text-decoration: none;
+   width: 50%;
+   
+   
+}
+img.linkedin{
+    text-decoration: none;
+    width: 50%;
+    
 }
 img.medium{
     text-decoration: none;
+    width: 50%;
     
+}
+a.twitter{
+  
 }
 div.bienvenue
 {
@@ -87,10 +102,7 @@ div.presentation{
   p{
     width: 25sem;
   }
-.twitter{
-    padding-top: 5em;
-    border: 5em purple;
-}
+
   figure{
     margin: 0;
   }
