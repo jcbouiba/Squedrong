@@ -41,7 +41,10 @@
         padding: 1.5em;
     }
 div.lien{
-    
+    padding-left: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 a.twitter{
     text-decoration: none;
@@ -52,8 +55,9 @@ a.twitter{
 a.linkedin{
     text-decoration: none;
 }
-a.medium{
+img.medium{
     text-decoration: none;
+    
 }
 div.bienvenue
 {
@@ -78,7 +82,7 @@ div.presentation{
 
   }
   .p1{
-    width: 70%;
+    width: 80%;
   }
   p{
     width: 25sem;
@@ -93,7 +97,7 @@ div.presentation{
 .container{
     display: flex;
     flex-flow: row nowrap;
-    align-content: space-around;
+    align-content: space-b;
   }
   img{
     width: 20em;
