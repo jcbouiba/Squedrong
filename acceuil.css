@@ -15,27 +15,86 @@
   *{
     margin: 0;
   }
+ body{
+    width: 917.45px;
+    margin: auto;
+ }
+
   nav{
+    
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     
+  }
+  img.logo{
+    width: 100%;
   }
   ul{
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
+    
     align-items: center;
     }
     li{
         padding: 1.5em;
     }
-  
-  a{
+div.lien{
+    
+}
+a.twitter{
     text-decoration: none;
-  }
+    
+    
+   
+}
+a.linkedin{
+    text-decoration: none;
+}
+a.medium{
+    text-decoration: none;
+}
+div.bienvenue
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-content: end;
+    
+}
+div.presentation{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
   h1{
     font-family: "Abril Fatface";
+    color: #ff33cc;
+    text-align: justify;
+   
     
+
   }
-  
+  .p1{
+    width: 70%;
+  }
+  p{
+    width: 25sem;
+  }
+.twitter{
+    padding-top: 5em;
+    border: 5em purple;
+}
+  figure{
+    margin: 0;
+  }
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-around;
+  }
+  img{
+    width: 20em;
+  }

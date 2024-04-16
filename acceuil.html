@@ -15,7 +15,7 @@
 <body>
     <header> <!--menu-->
         <nav>
-            <a href="acceuil.html"><img src="images\logo.png" alt="logo_Squedrong"></a>
+            <a href="acceuil.html"><img class="logo" src="images\logo.png" alt="logo_Squedrong"></a>
             <ul>
                 <li><a href="blog.html">BLOG</a></li>
                 <li><a href="acceuil.html">CV</a></li>
@@ -25,14 +25,20 @@
         </nav>
     </header>
     <main><!--contenu-->
-        <h1>Bienvenue sur le blog !</h1>
-        <h2>Lorem ipsum</h2>
-        <p>Tellus nibh libero feugiat convallis torquent metus libero metus justo dolor. Eu curabitur elementum, phasellus habitant ante tellus montes. Egestas habitant congue torquent lacinia quisque id mattis arcu. Vitae suspendisse pharetra lacinia phasellus! Magna urna donec vestibulum condimentum proin semper. Porttitor scelerisque quam nostra imperdiet dictumst vulputate. Congue nostra fermentum dui pellentesque. Himenaeos quis, habitant pulvinar lacus faucibus. Et dis donec euismod mauris ante facilisi posuere auctor primis. Congue suspendisse convallis sagittis fusce.</p>
-        <a href="https://twitter.com/?lang=fr">TWITTER</a>
-        <a href="https://www.linkedin.com/home?originalSubdomain=fr">LINKEDIN</a>
-        <a href="https://medium.com/">MEDIUM</a>
-        <img src="images\illustration.png" alt="illustration">
-        <div><!--bloc 1-->
+        <div class="bienvenue">
+            <div class="presentation">
+                <h1>Bienvenue sur le blog !</h1>
+                <h2>Lorem ipsum</h2>
+                <p class="p1">Tellus nibh libero feugiat convallis torquent metus libero metus justo dolor. Eu curabitur elementum, phasellus habitant ante tellus montes. Egestas habitant congue torquent lacinia quisque id mattis arcu. Vitae suspendisse pharetra lacinia phasellus! Magna urna donec vestibulum condimentum proin semper. Porttitor scelerisque quam nostra imperdiet dictumst vulputate. Congue nostra fermentum dui pellentesque. Himenaeos quis, habitant pulvinar lacus faucibus. Et dis donec euismod mauris ante facilisi posuere auctor primis. Congue suspendisse convallis sagittis fusce.</p>
+                <div class="lien">
+                    <a class="twitter" href="https://twitter.com/?lang=fr">TWITTER</a>
+                    <a class="linkedin" href="https://www.linkedin.com/home?originalSubdomain=fr">LINKEDIN</a>
+                    <a class="medium" href="https://medium.com/">MEDIUM</a>
+                </div>
+            </div>
+            <img src="images\illustration.png" alt="illustration">
+        </div>
+        <div class="container"><!--bloc 1-->
             <figure>
                 <img src="images\Capture.PNG" alt="mac">
                 <figcaption>13 JAN 2022</figcaption>
@@ -40,8 +46,8 @@
             <h3>Lorem ipsum dolor sit amet.</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis rerum omnis, sequi perferendis soluta magnam, voluptatum quo cupiditate veniam quaerat earum cum vel harum quisquam expedita vitae libero sapiente? Eligendi.</p>
             <a href="#">EN SAVOIR PLUS</a>
-        </div>
-        <div><!--bloc 2-->
+        
+        <!--bloc 2-->
             <figure>
                 <img src="images\Capture1.PNG" alt="mac_portable">
                 <figcaption>13 JAN 2022</figcaption>
