@@ -1,0 +1,77 @@
+body {
+    margin: auto;
+    width: 917.45px;
+  }
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+ }
+ .logo {
+    width: 100%;
+ }
+
+form {
+    margin-right: 500px;
+    margin-left: 500px;
+  }
+  label,
+  input,
+  meter {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #ff33cc;
+    font-weight: bold;
+  }
+
+
+.images {
+    width: 50%;
+	height: 200px;
+    display: flex;
+    margin-left: 10em;
+
+}
+ h1 {
+    color: #ff33cc;
+    padding: 0.5em;
+ }
+ ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+ }
+ button{
+    background: #d06be1;
+    color: rgb(92, 27, 94);
+    border-style: outset;
+    border-color: #0c0c0c;
+    height: 20px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: #ff33cc;
+    }
+
+ button:hover {
+    background-color: #ff33cc;
+  }
+  a{
+    text-decoration: none;
+    padding-right: 1em;
+    color: grey;
+  }
+  a:hover {
+    color: #0f0f7e;
+  }
+

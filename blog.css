@@ -15,6 +15,10 @@ nav {
     flex-flow: row nowrap;
     align-items: center;
  }
+
+ li{
+  padding: 1em;
+ }
  
  .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
@@ -50,7 +54,10 @@ h1 {
 h2,h3{
     color:rgb(4, 4, 105)
 }
-
+a {
+  color: gray;
+  text-decoration: none;
+}
 
 
   
