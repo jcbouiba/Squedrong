@@ -13,8 +13,10 @@ body {
  }
 
 form {
-    margin-right: 500px;
-    margin-left: 500px;
+    margin-right: 400px;
+    margin-left: 400px;
+    width: 400px;
+    height: 400px;
   }
   label,
   input,
