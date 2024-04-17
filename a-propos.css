@@ -1,3 +1,4 @@
+/* Polices */
 .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
@@ -7,16 +8,16 @@
 
 .montserrat {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-    {
+   * {
     margin: 0;
     padding: 0;
 }
 
+/* Texte */
 body {
     font-family: "Montserrat, sans-serif";
     text-align: justify;
@@ -34,6 +35,7 @@ p {
     padding: 40px 0 60px 0;
 }
 
+/* Liens */
 a {
     text-decoration: none;
     color: grey;
@@ -43,6 +45,7 @@ a:hover {
     color: rgb(4, 4, 95);
 }
 
+/* Navigations */
 nav {
     display: flex;
     flex-flow: row nowrap;
@@ -57,6 +60,7 @@ ul {
     gap: 15px;
 }
 
+/* Content */
 .content {
     display: flex;
     justify-content: space-between;
@@ -71,11 +75,13 @@ ul {
 
 }
 
+/* Illustration */
 .image img {
     width: 350px;
     height: 300px;
 }
 
+/* Liens */
 .liens {
     display: flex;
     gap: 15px;
