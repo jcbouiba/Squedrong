@@ -2,21 +2,22 @@
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 
 .montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <400>;
-  font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-* {
+    {
     margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     font-family: "Montserrat, sans-serif";
     text-align: justify;
     width: 917.45px;
@@ -26,16 +27,26 @@ body{
 h1 {
     font-family: "Abril Fatface";
     color: #ff33cc;
+    padding-bottom: 30px;
+}
+
+p {
+    padding: 40px 0 60px 0;
 }
 
 a {
     text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    color: rgb(4, 4, 95);
 }
 
 nav {
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-between;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 ul {
@@ -43,9 +54,34 @@ ul {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    gap: 15px;
 }
 
-li {
-    padding: 50px;
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
 }
 
+.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.image img {
+    width: 350px;
+    height: 300px;
+}
+
+.liens {
+    display: flex;
+    gap: 15px;
+
+}
+
+.liens img {
+    width: 150px;
+}
