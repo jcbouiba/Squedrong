@@ -91,4 +91,36 @@ form {
   a:hover {
     color: #0f0f7e;
   }
+  /* Illustration */
+.image img {
+  width: 270px;
+  height: 260px;
+}
+/* Liens */
+.liens {
+  display: flex;
+  gap: 15px;
+
+}
+.liens img {
+  width: 150px;
+}
+/* Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+}
+
+.texte {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
 
