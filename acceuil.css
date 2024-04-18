@@ -42,6 +42,9 @@ ul{
     color: gray;
     text-decoration: none;
   }
+  a:hover{
+    color: rgb(4, 4, 95);
+  }
   .color{
     color: blue;
   }
