@@ -57,6 +57,34 @@ a {
   color: gray;
   text-decoration: none;
 }
+/* Illustration */
+.image img {
+  width: 350px;
+  height: 300px;
+}
+/* Liens */
+.liens {
+  display: flex;
+  gap: 15px;
+
+}
+.liens img {
+  width: 150px;
+}
+/* Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.texte {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
 
 
   

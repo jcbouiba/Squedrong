@@ -11,6 +11,23 @@ body {
     justify-content: space-between;
   
  }
+ .abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Abril Fatface";
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+p {
+    font-family: "Montserrat";
+}
  .logo {
     width: 100%;
  }
